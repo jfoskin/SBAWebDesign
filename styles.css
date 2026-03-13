@@ -2,18 +2,34 @@ body {
 	height: 100vh;
 }
 
+.circle {
+	width: 10px;
+	height: 10px;
+	border-radius: 1px solid hsl(293, 100%, 63%) hsl(293, 100%, 63%);
+}
+
+.input-arrow {
+	background: hsl(271, 36%, 24%);
+}
+
+.main-para {
+	color: hsl(270, 7%, 64%);
+	font-size: 16px;
+}
+
+.owner {
+	color: hsl(270, 7%, 64%);
+}
+
+.puppy img {
+	width: 50px;
+	height: 50px;
+}
+
 .purple {
 	background: linear-gradient(
 		90deg,
 		rgba(136, 56, 255, 1) 0%,
 		rgba(233, 66, 255, 1) 100%
 	);
-}
-.circle {
-	width: 10px;
-	height: 10px;
-}
-
-.input-arrow {
-	background: hsl(271, 36%, 24%);
 }

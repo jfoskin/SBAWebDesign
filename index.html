@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!-- displays site properly based on user's device -->
 
 		<link
 			rel="icon"
@@ -30,10 +29,10 @@
 	</head>
 
 	<body>
-		<div class="purple z-0">purple</div>
-		<main class="d-flex z-1 text-center m-5" align>
+		<div class="purple z--1 rounded-pill rounded-top-0 w-50 h-75">purple</div>
+		<main class="d-flex z-5 text-center m-5" align>
 			<div class="card d-flex flex-column m-5 p-2" style="width: 1000px">
-				<div class="purple d-flex flex-row align-items-center">
+				<div class="purple d-flex flex-row align-items-center w-100">
 					<button class="btn btn-link">
 						<img
 							width="24"
@@ -60,35 +59,38 @@
 				<div>
 					<p>Could you send over some pictures of your dog, please?</p>
 				</div>
-				<div class=" ">
+				<div class="d-flex flex-row justify-content-end puppy">
 					<div>
 						<img
-							class="w-25 p-1 rounded"
+							class=" p-1 rounded-4"
 							src="./images/dog-image-1.jpg"
 							alt="golden brown puppy"
 						/>
 					</div>
 					<div>
 						<img
-							class="w-25 p-1 rounded"
+							class=" p-1 rounded-4"
 							src="./images/dog-image-2.jpg"
 							alt="golden brown puppy"
 						/>
 					</div>
 					<div>
 						<img
-							class="w-25 p-1 rounded"
+							class="p-1 rounded-4"
 							src="./images/dog-image-3.jpg"
 							alt="golden brown puppy"
 						/>
 					</div>
 				</div>
-				<div>
-					<p>Available to Walk Here are a few pictures. She’s a happy girl!</p>
-				</div>
-				<div>
-					<p>Can you make it?</p>
-				</div>
+        <div class="owner">
+
+          <div>
+            <p>Available to Walk Here are a few pictures. She’s a happy girl!</p>
+          </div>
+          <div>
+            <p>Can you make it?</p>
+          </div>
+        </div>
 				<div>
 					<p>
 						She looks so happy! The time we discussed works. How long shall I
@@ -107,7 +109,7 @@
 					</div>
 				</div>
 				<div>
-					<div class="purple d-flex">
+					<div class="purple selection d-flex">
 						<div class="d-flex flex-row align-items-center">
 							<div
 								class="border border-white rounded-circle m-2 p-2 opacity-25"
@@ -129,10 +131,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="d-flex flex-column text-start">
-				<h1>Simple booking</h1>
 
-				<p class="fs-6 w-75">
+			<div class="d-flex flex-column text-start align-self-center"">
+				<h1 class="mb-3">Simple booking</h1>
+
+				<p class="fs-6 w-75 main-para">
 					Stay in touch with our dog walkers through the chat interface. This
 					makes it easy to discuss arrangements and make bookings. Once the walk
 					has been completed you can rate your walker and book again all through
