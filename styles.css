@@ -23,13 +23,16 @@ body {
 
 .message {
 	margin: 5px;
-	max-width: 50%;
+	max-width: 70%;
 	color: hsl(276, 55%, 52%);
 	background: hsl(276, 100%, 81%);
 }
 
 .owner {
+	margin: 5px;
+	max-width: 75%;
 	color: hsl(270, 7%, 64%);
+	background: hsl(0, 100%, 100%);
 }
 
 .puppy img {
@@ -43,6 +46,10 @@ body {
 		rgba(136, 56, 255, 1) 0%,
 		rgba(233, 66, 255, 1) 100%
 	);
+}
+
+.selection {
+	max-width: 75%;
 }
 
 .selection,
