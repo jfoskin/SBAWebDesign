@@ -17,6 +17,17 @@ body {
 	font-size: 16px;
 }
 
+.message-body {
+	background: hsl(270, 20%, 96%);
+}
+
+.message {
+	margin: 5px;
+	max-width: 50%;
+	color: hsl(276, 55%, 52%);
+	background: hsl(276, 100%, 81%);
+}
+
 .owner {
 	color: hsl(270, 7%, 64%);
 }
@@ -32,4 +43,9 @@ body {
 		rgba(136, 56, 255, 1) 0%,
 		rgba(233, 66, 255, 1) 100%
 	);
+}
+
+.selection,
+.walker {
+	color: hsl(276, 100%, 81%);
 }

@@ -29,10 +29,16 @@
 	</head>
 
 	<body>
-		<div class="purple z--1 rounded-pill rounded-top-0 w-50 h-75">purple</div>
+		<div class="purple z-0 rounded-pill rounded-top-0 w-50 h-75">purple</div>
+
+
 		<main class="d-flex z-5 text-center m-5" align>
-			<div class="card d-flex flex-column m-5 p-2" style="width: 1000px">
-				<div class="purple d-flex flex-row align-items-center w-100">
+
+
+			<div class="card d-flex flex-column m-5 p-2 h-auto" style="width: 900px">
+
+				<div class="purple d-flex flex-row align-items-center w-100 rounded-4 rounded-bottom-1 ">
+
 					<button class="btn btn-link">
 						<img
 							width="24"
@@ -48,15 +54,20 @@
 						src="./images/avatar.jpg"
 						alt="Samuel Green"
 					/>
-					<div>
+
+					<div class="walker">
 						<p>Samuel Green</p>
 						<p>Available to Walk</p>
 					</div>
+
 				</div>
-				<div>
+
+
+        <div class="message-body w-100 p-2 rounded-4 rounded-top-0 ">
+				<div class="message text-start">
 					<p>That sounds great. I’d be happy with that.</p>
 				</div>
-				<div>
+				<div class="message text-start">
 					<p>Could you send over some pictures of your dog, please?</p>
 				</div>
 				<div class="d-flex flex-row justify-content-end puppy">
@@ -84,21 +95,21 @@
 				</div>
         <div class="owner">
 
-          <div>
-            <p>Available to Walk Here are a few pictures. She’s a happy girl!</p>
+          <div class="text-end">
+            <p> Here are a few pictures. She’s a happy girl!</p>
           </div>
-          <div>
+          <div class="text-end">
             <p>Can you make it?</p>
           </div>
         </div>
-				<div>
+				<div class="message text-start">
 					<p>
 						She looks so happy! The time we discussed works. How long shall I
 						take her out for?
 					</p>
 				</div>
 				<div>
-					<div class="purple">
+					<div class="purple selection d-flex">
 						<div class="d-flex flex-row align-items-center">
 							<div
 								class="border border-white rounded-circle m-2 p-2 opacity-25"
@@ -120,7 +131,7 @@
 					</div>
 				</div>
 				<div class="d-flex">
-					<input class="rounded" type="text" placeholder="Type a message… " />
+					<input class="rounded w-100" type="text" placeholder="Type a message… " />
 					<div class="input-arrow rounded-circle">
 						<img
 							width="24"
@@ -130,18 +141,23 @@
 						/>
 					</div>
 				</div>
+        </div>
 			</div>
 
-			<div class="d-flex flex-column text-start align-self-center"">
-				<h1 class="mb-3">Simple booking</h1>
 
-				<p class="fs-6 w-75 main-para">
+
+			<div class="d-flex flex-column text-start align-self-center"">
+				<h1 class="mb-4">Simple booking</h1>
+
+				<p class="w-75 main-para">
 					Stay in touch with our dog walkers through the chat interface. This
 					makes it easy to discuss arrangements and make bookings. Once the walk
 					has been completed you can rate your walker and book again all through
 					the chat.
 				</p>
 			</div>
+
+
 		</main>
 		<!-- <div class="attribution">
 			Challenge by
