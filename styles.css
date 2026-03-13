@@ -9,3 +9,11 @@ body {
 		rgba(233, 66, 255, 1) 100%
 	);
 }
+.circle {
+	width: 10px;
+	height: 10px;
+}
+
+.input-arrow {
+	background: hsl(271, 36%, 24%);
+}
