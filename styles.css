@@ -8,6 +8,14 @@ body {
 	border-radius: 1px solid hsl(293, 100%, 63%) hsl(293, 100%, 63%);
 }
 
+/* .custom-search-botton {
+	position: absolute;
+	outline: none;
+	bottom: 10;
+	right: 0;
+	margin: 0;
+} */
+
 .input-arrow {
 	background: hsl(271, 36%, 24%);
 }
