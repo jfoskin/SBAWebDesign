@@ -64,3 +64,10 @@ body {
 .walker {
 	color: hsl(276, 100%, 81%);
 }
+
+@media (max-width: 375px) {
+	main {
+		display: flex;
+		flex-direction: column;
+	}
+}
